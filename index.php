@@ -35,7 +35,15 @@
                 </div>
             </div>
         </div>
-        <div class="right">Right</div>
+        <div class="right">
+            <div class="middle-content">
+                <i class="fab fa-twitter"></i>
+                <h1>See what's happening in the world right now</h1>
+                <h4>Join Twitter nwo</h4>
+                <a href="signup.php" class="sign-up">Sign Up</a>
+                <a href="login.php" class="log-in">Log In</a>
+            </div>
+        </div>
 
     <footer>footer</footer>
     
