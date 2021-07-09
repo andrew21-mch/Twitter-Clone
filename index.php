@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="frontend/assest/css/style.css">
+    <link rel="stylesheet" href="frontend/assets/css/style.css">
 </head>
 <body>
     <section class="main-page">
@@ -39,14 +39,11 @@
             <div class="middle-content">
                 <i class="fab fa-twitter"></i>
                 <h1>See what's happening in the world right now</h1>
-                <h4>Join Twitter nwo</h4>
+                <h4>Join Twitter now</h4>
                 <a href="signup.php" class="sign-up">Sign Up</a>
                 <a href="login.php" class="log-in">Log In</a>
             </div>
-        </div>
-
-    <footer>footer</footer>
-    
+        </div> 
     </section>
 
 </body>
