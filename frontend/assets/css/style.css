@@ -133,9 +133,12 @@ footer.main-page-footer{
     flex-wrap: wrap;
 }
 .main-page-footer li{
-    padding: 1rem,1.5rem;
+    padding: .8rem;
 }
 .main-page-footer a{
      color: rgb(91, 112,131);
-     font-size: 1.6rem;
+     font-size: 1.3rem;
+}
+.main-page-footer a:hover{
+    text-decoration: underline;
 }
