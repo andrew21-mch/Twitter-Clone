@@ -7,4 +7,45 @@
     display: grid;
     grid-template-columns: minmax(5rem,1fr) 2fr minmax(5rem,1fr);
     grid-template-rows: repeat(2, min-content) 1fr;
+    row-gap: 1.5rem;
+}
+.nav-header-sign_up{
+    grid-column: 1/4;
+    grid-row: 1/2;
+    box-shadow: 0 0 .7rem rgba(0, 0, 0, 0.3);
+    padding: 2rem 0;
+}
+.nav-header-sign_up ul{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    align-items: flex-end;
+}
+.nav-header-sign_up ul li{
+    padding: 0 2.5rem;
+    position: relative;
+}
+.nav-header-sign_up ul li:last-child{
+    margin-left: auto;
+}
+.nav-header-sign_up ul li::after{
+    content: "";
+    width: 100%;
+    height: 0.3rem;
+    background: #1aa1f5;
+    position: absolute;
+    bottom: -2.5rem;
+    left: 0;
+    opacity: 0;
+}
+.nav-header-sign_up ul li:hover::after{
+    opacity: 1;
+}
+.nav-header-sign_up a{
+    font-size: 1.6rem;
+    color: #555;
+}
+.nav-header-sign_up .fab.fa-twitter{
+    font-size: 2rem;
+    color: #1aa1f5;
 }
