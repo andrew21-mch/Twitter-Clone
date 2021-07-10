@@ -22,6 +22,9 @@ html body{
 html{
     font: 62.5%;
 }
+a{
+    text-decoration: none;
+}
 
 /********************************************
 main section
@@ -111,4 +114,28 @@ a.sign-up{
 a.log-in{
     background: #fff;
     color: rgb(229,161,242,1.00);
+}
+
+/****************************************************
+footer section
+****************************************************/
+footer.main-page-footer{
+    grid-column: 1/-1;
+    grid-row: 2/3;
+    padding: 1.5rem;
+    background: #fff;
+    border-top: .1rem solid #ddd;
+     
+}
+.main-page-footer ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.main-page-footer li{
+    padding: 1rem,1.5rem;
+}
+.main-page-footer a{
+     color: rgb(91, 112,131);
+     font-size: 1.6rem;
 }
