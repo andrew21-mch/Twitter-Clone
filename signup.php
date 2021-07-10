@@ -6,7 +6,7 @@ $pagetitle="signup | twitter";
 include "backend/shared/head.inc.php";
 ?>
 <section class="sign-container">
-    <nav class="nav header sign_up">
+    <nav class="nav-header-sign_up">
         <ul>
             <li>
                 <a href="#">
