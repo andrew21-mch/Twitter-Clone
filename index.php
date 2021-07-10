@@ -45,65 +45,29 @@
             </div>
         </div> 
 
-        <div class = "main-page-footer" role="contentinfo">
-            <ul >
-                <li>
-                    <a href="#">About</a>
-                </li>
-                <li>
-                    <a href="#">Help</a>
-                </li>
-                <li>
-                    <a href="#">Terms or Service</a>
-                </li>
-                <li>
-                    <a href="#">Privacy Policy</a>
-                </li>
-                <li>
-                    <a href="#">cookie Policy</a>
-                </li>
-                <li>
-                    <a href="">Ads Info</a> 
-                </li>
-                <li>
-                    <a href="#">Blog</a>
-                </li>
-                <li>
-                    <a href="">Status</a>
-                </li>
-                <li>
-                    <a href="">Carrier</a>
-                 </li>
-                <li>
-                    <a href="">Brand Resources</a>
-                </li>
-                <li>
-                    <a href="">Advertising</a>
-                </li>
-                <li>
-                    <a href="">Marketing</a>
-                </li>
-                <li>
-                    <a href="#">Twitter for Business</a>
-                </li>
-                <li>
-                    <a href="">Developers</a>
-                </li>
-                <li>
-                    <a href="">Directory</a>
-                </li>
-                <li>
-                    <a href="">Settings</a>
-                </li>
-                <li>
-                    <a href="">Copyright</a>
-                </li>
-                <li>
-                    <a href=""><?php echo date('Y') ?> Twitter.Inc</a>
-                </li>
+        <footer class="main-page-footer" role="contentinfo">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Terms or Service</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">cookie Policy</a></li>
+                <li><a href="#">Ads Info</a> </li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Status</a></li>
+                <li><a href="#">Carrier</a></li>
+                <li><a href="#">Brand Resources</a></li>
+                <li><a href="#">Advertising</a></li>
+                <li><a href="#">Marketing</a></li>
+                <li><a href="#">Twitter for Business</a></li>
+                <li><a href="#">Developers</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Settings</a></li>
+                <li><a href="#">Copyright</a></li>
+                <li><a href="#"><?php echo date('Y') ?> Twitter.Inc</a></li>
             </ul>
     
-        </div>
+    </footer>
     </section>
 
 </body>
